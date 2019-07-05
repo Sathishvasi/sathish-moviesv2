@@ -15,6 +15,10 @@ code {
     width: 100%
 }
 
+#home-container .home-desc {
+    padding: 0 1rem
+}
+
 #home-container form {
     display: flex;
     justify-content: center;
@@ -213,7 +217,7 @@ code {
 .no-record img {
     max-width: 350px;
     width: 100%;
-    padding-top: 3vh;
+    padding-top: 3vh
 }
 
 .no-record p {
@@ -540,6 +544,22 @@ input[type=number] {
     background: #2e4469
 }
 
+.movie-container .m-details .synopsis-cast .cast-container .view-more-btn {
+    font-weight: 700;
+    color: rgba(136, 213, 247, .54);
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid;
+    padding: .4rem .7rem;
+    border-radius: 5px;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear
+}
+
+.movie-container .m-details .synopsis-cast .cast-container .view-more-btn:hover {
+    color: #41b1e1 !important
+}
+
 .movie-container .m-container {
     padding: 0;
     margin: 5rem 0 0;
@@ -605,12 +625,12 @@ input[type=number] {
     margin-bottom: 10px
 }
 
-.movie-container .m-container .movie-detail .ratings .fas.fa-heart {
+.movie-container .m-container .movie-detail .ratings .fa.fa-heart {
     color: #a70000;
     font-size: 18px
 }
 
-.movie-container .m-container .movie-detail .ratings .fab.fa-imdb {
+.movie-container .m-container .movie-detail .ratings .fa.fa-imdb {
     font-size: 23px;
     color: #eab000
 }
@@ -643,7 +663,7 @@ input[type=number] {
     transition: all .2s linear
 }
 
-.movie-container .ytube .fas.fa-play-circle {
+.movie-container .ytube .fa.fa-play-circle {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -655,7 +675,7 @@ input[type=number] {
     z-index: 98
 }
 
-.movie-container .ytube .fas.fa-play-circle:hover~img,
+.movie-container .ytube .fa.fa-play-circle:hover~img,
 .movie-container .ytube img:hover {
     -webkit-filter: brightness(50%);
     filter: brightness(50%)
@@ -1096,4 +1116,4 @@ body {
     display: block !important
 }
 
-/*# sourceMappingURL=main.971dfab4.chunk.css.map */
+/*# sourceMappingURL=main.d614658d.chunk.css.map */
